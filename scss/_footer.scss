@@ -1,0 +1,22 @@
+footer {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(247, 244, 244);
+  height: 3rem;
+  width: 100%;
+  bottom: 0rem;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  border-radius: 5px;
+  grid-area: footer;
+
+  .box__footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img__footer {
+    display: flex;
+    justify-content: center;
+  }
+}

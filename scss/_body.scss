@@ -1,0 +1,19 @@
+body {
+  justify-content: center;
+  background-image: url(../images/pexels-engin-akyurt-3065209.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header" "header"
+    "nav" "nav"
+    "footer" "footer";
+}
